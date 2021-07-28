@@ -1,14 +1,22 @@
-h1 {
-    color:rgb(0, 17, 255);
-}
-
 .align-center {
     margin: auto;
 }
 
 body{
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
     width: 70%;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 2.2;
+    letter-spacing: 1.2;
+    color:rgb(90, 90, 90);
+    margin: 30px 50px 30px 50px;
+    text-align: justify;
+
 }
 
 #cont-header {
@@ -17,6 +25,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 nav {
@@ -32,25 +41,37 @@ ul {
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .nav-justified {
     background-color: #eee;
     border: 1px solid #ccc;
-    border-radius: 5px;
     width: 100%;
 }
 
 .caja-titulos {
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #ffffff;
-    background: #889ccf;
-    margin: 0 0 25px;
+    background: #72BBE7;
     overflow: hidden;
-    padding: 20px;
+    padding: 26px;
     border-radius: 20px 20px 20px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+li {
+    display: -webkit-inline-box;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    
+
 }
