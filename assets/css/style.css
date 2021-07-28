@@ -1,6 +1,5 @@
 h1 {
     color:rgb(0, 17, 255);
-    
 }
 
 .align-center {
@@ -18,14 +17,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
 }
-/* 
-#text-header {
-    display:flex;
-    justify-content:center;
-    color: blue;
-} */
 
 nav {
     display: flex;
