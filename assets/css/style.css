@@ -1,3 +1,8 @@
+h1{
+    font-size: xxx-large;
+    color: #bb8c41;
+}
+
 .align-center {
     margin: auto;
 }
@@ -21,7 +26,6 @@ h4 {
 
 #cont-header {
     display: flex;
-    padding-bottom: 30px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -29,33 +33,36 @@ h4 {
 }
 
 nav {
-    display: flex;
     flex-direction: row;
+    overflow: hidden;
+    width: auto;
 }
 
 ul {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: auto;
     list-style: none;
+    align-items: center;
+    padding: 0;
 }
 
 img {
     width: 100%;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .nav-justified {
-    background-color: #eee;
-    border: 1px solid #ccc;
+    background-color: #bb8c41;
     width: 100%;
 }
 
 .caja-titulos {
-    background: #72BBE7;
+    background: #bb8c41;
     overflow: hidden;
     padding: 26px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0;
 }
 
 h2 {
@@ -68,10 +75,30 @@ h2 {
 }
 
 li {
+    font-family: sans-serif;
+    font-weight: bold;
     display: -webkit-inline-box;
     list-style: none;
     color: black;
     text-decoration: none;
-    
 
+}
+
+.header-txt{
+    height: 200px;
+    display: flex;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.especializaciones{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.nombre{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
